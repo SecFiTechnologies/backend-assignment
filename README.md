@@ -21,10 +21,10 @@ The proposed implementation scope doesn't require any privileged roles and opera
 
 ## Requirements
 * The microservice should be written in Python, TypeScript, Java, Kotlin or Scala.
-* Password should be stored in encrypted format
+* Password should be stored in encrypted format.
 * For the avatar, pick a way of storing you think is
-most efficient
-* Make sure to implement the necessary authorization controls.
+most efficient.
+* Make sure to implement the necessary authorization controls (users can update/remove/etc only themselves).
 * It should run in a Docker container.
 
 Besides that you're free to choose any framework or library you need, although you should be prepared to defend your choices.
