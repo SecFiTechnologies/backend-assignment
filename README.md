@@ -1,13 +1,34 @@
 # Secfi backend assignment
 
 ## Description
-At Secfi we use a microservices architecture. Imagine we want to rebuild our authentication service, and we ask you to do it. The API should allow the following operations:
+At Secfi we use a microservices architecture. Imagine we want to rebuild our authentication service, and we ask you to do it.
+
+Users should have the following attributes:
+* Username
+* First name
+* Last name
+* Password
+* Avatar
+
+The API should allow the following operations:
 * Create user
-* Update user
 * Login
+* Update user
+* Remove user (self-removal)
+* Avatar upload (can be a part of user update operation)
+
+The proposed implementation scope doesn't require any privileged roles and operations (e.g. removing other users), but you are welcome to define and add them.
 
 ## Requirements
-The microservice should be written in Python, and should run in a Docker container. Besides that you're free to choose any framework or library you need, although you should be prepared to defend your choices.
+* The microservice should be written in Python, TypeScript, Java, Kotlin or Scala.
+* Password should be stored in encrypted format.
+* For the avatar, pick a way of storing you think is
+most efficient.
+* Make sure to implement the necessary authorization controls (users can update/remove/etc only themselves).
+* It should run in a Docker container.
+
+Besides that you're free to choose any framework or library you need, although you should be prepared to defend your choices.
+
 
 ## Evaluation
 After you finish the assignment, we ask you to answer the following questions:
@@ -17,8 +38,6 @@ After you finish the assignment, we ask you to answer the following questions:
 * What would you improve next time?
 
 ## Submission
-Please fork this repo and create a pull request once your done. You can answer the evaluation questions in the README.
+Please create a repo and send us a link (if it's a private repo, please add @ioanastanescu, @emanuelmd, @romansergey to it).
 
-The assignment doesn’t have a hard time limit but we also don’t want to take too much of your time, so try to spend a maximum of 4/5 hours on it. If you have any questions, please don't hesitate to reach out.
-
-Good luck! 
+Good luck! If you have any questions, please don't hesitate to reach out.
