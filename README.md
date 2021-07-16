@@ -38,6 +38,6 @@ After you finish the assignment, we ask you to answer the following questions:
 * What would you improve next time?
 
 ## Submission
-Please create a repo and send us a link (if it's a private repo, please add @ioanastanescu, @emanuelmd, @romansergey to it).
+Please create a repo and send us a link (if it's a private repo, please add @secfiEngInt github user to it).
 
 Good luck! If you have any questions, please don't hesitate to reach out.
