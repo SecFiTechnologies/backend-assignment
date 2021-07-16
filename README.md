@@ -8,14 +8,12 @@ Users should have the following attributes:
 * First name
 * Last name
 * Password
-* Avatar
 
 The API should allow the following operations:
 * Create user
 * Login
 * Update user
 * Remove user (self-removal)
-* Avatar upload (can be a part of user update operation)
 
 The proposed implementation scope doesn't require any privileged roles and operations (e.g. removing other users), but you are welcome to define and add them.
 
@@ -23,10 +21,7 @@ The proposed implementation scope doesn't require any privileged roles and opera
 * The microservice should be written in Python, TypeScript, Java, Kotlin or Scala.
 * There should be tests
 * Password should be stored in encrypted format.
-* For the avatar, pick a way of storing you think is
-most efficient.
 * Make sure to implement the necessary authorization controls (users can update/remove/etc only themselves).
-* It should run in a Docker container.
 
 Besides that you're free to choose any framework or library you need, although you should be prepared to defend your choices.
 
