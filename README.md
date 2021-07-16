@@ -21,6 +21,7 @@ The proposed implementation scope doesn't require any privileged roles and opera
 
 ## Requirements
 * The microservice should be written in Python, TypeScript, Java, Kotlin or Scala.
+* There should be tests
 * Password should be stored in encrypted format.
 * For the avatar, pick a way of storing you think is
 most efficient.
@@ -29,13 +30,13 @@ most efficient.
 
 Besides that you're free to choose any framework or library you need, although you should be prepared to defend your choices.
 
-
 ## Evaluation
 After you finish the assignment, we ask you to answer the following questions:
 * How much time did you end up spending on it?
 * What are some of the design decisions you made?
 * What do you like about your implementation?
 * What would you improve next time?
+* What things are missing to make it production-ready?
 
 ## Submission
 Please create a repo and send us a link (if it's a private repo, please add @secfiEngInt github user to it).
