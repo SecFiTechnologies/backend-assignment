@@ -1,7 +1,7 @@
 # Secfi backend assignment
 
 ## Description
-At Secfi we use a microservices architecture. Imagine we want to rebuild our authentication service, and we ask you to do it.
+At Secfi we use a microservices architecture. Imagine we want to rebuild our authentication service, and we ask you to do it. The assignment doesn’t have a hard time limit but we also don’t want to take too much of your time, so try to spend a maximum of 4/5 hours on it.
 
 Users should have the following attributes:
 * Username
